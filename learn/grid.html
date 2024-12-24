@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lists, Grids, and Flexbox Example</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    /* Styling for List Section */
+    .list-section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: square; /* Square bullet points */
+      padding: 0;
+    }
+
+    ul li {
+      background-color: #f9f9f9;
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    /* Styling for Grid Section */
+    .grid-section {
+      margin-bottom: 30px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+      gap: 10px; /* Space between grid items */
+    }
+
+    .grid-item {
+      background-color: #eaf5ff;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Styling for Flexbox Section */
+    .flexbox-section {
+      display: flex;
+      justify-content: space-around; /* Distribute items evenly */
+      align-items: center; /* Center items vertically */
+      padding: 20px;
+      background-color: #f3f3f3;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .flex-item {
+      background-color: #d1e7dd;
+      padding: 20px;
+      text-align: center;
+      flex: 1; /* Items grow evenly */
+      margin: 10px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lists, Grids, and Flexbox Example</h1>
+
+  <!-- List Section -->
+  <section class="list-section">
+    <h2>List Example</h2>
+    <ul>
+      <li>First List Item</li>
+      <li>Second List Item</li>
+      <li>Third List Item</li>
+      <li>Fourth List Item</li>
+    </ul>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="grid-section">
+    <h2>Grid Example</h2>
+    <div class="grid-container">
+      <div class="grid-item">Grid Item 1</div>
+      <div class="grid-item">Grid Item 2</div>
+      <div class="grid-item">Grid Item 3</div>
+      <div class="grid-item">Grid Item 4</div>
+      <div class="grid-item">Grid Item 5</div>
+      <div class="grid-item">Grid Item 6</div>
+    </div>
+  </section>
+
+  <!-- Flexbox Section -->
+  <section class="flexbox-section">
+    <h2>Flexbox Example</h2>
+    <div class="flex-item">Flex Item 1</div>
+    <div class="flex-item">Flex Item 2</div>
+    <div class="flex-item">Flex Item 3</div>
+  </section>
+
+</body>
+</html>

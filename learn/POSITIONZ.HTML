@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Positions and Z-Index Example</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      position: relative; /* Establish relative positioning for contained elements */
+      width: 90%;
+      max-width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      border: 2px solid #ccc;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    /* ---- Position Examples ---- */
+    /* Static Position */
+    .box-static {
+      position: static; /* Default positioning */
+      background-color: lightblue;
+      width: 120px;
+      height: 120px;
+      margin: 10px;
+      text-align: center;
+      line-height: 120px;
+      z-index: 1; /* Not relevant for static */
+    }
+
+    /* Relative Position */
+    .box-relative {
+      position: relative; /* Positioned relative to its normal flow */
+      background-color: lightcoral;
+      width: 120px;
+      height: 120px;
+      top: 20px;
+      left: 20px;
+      text-align: center;
+      line-height: 120px;
+      z-index: 2; /* Higher z-index appears above static items */
+    }
+
+    /* Absolute Position */
+    .box-absolute {
+      position: absolute; /* Positioned relative to the container */
+      background-color: lightgreen;
+      width: 120px;
+      height: 120px;
+      top: 50px;
+      left: 50px;
+      text-align: center;
+      line-height: 120px;
+      z-index: 3;
+    }
+
+    /* Fixed Position */
+    .box-fixed {
+      position: fixed; /* Positioned relative to the viewport */
+      background-color: lightgoldenrodyellow;
+      width: 120px;
+      height: 120px;
+      bottom: 10px;
+      right: 10px;
+      text-align: center;
+      line-height: 120px;
+      z-index: 4;
+    }
+
+    /* Sticky Position */
+    .box-sticky {
+      position: sticky; /* Sticky based on scroll position */
+      top: 0; /* Sticks to the top of the container */
+      background-color: lightpink;
+      width: 90%;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      z-index: 5;
+      margin-bottom: 20px;
+    }
+
+    /* Styling for Z-Index Layers */
+    .box {
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>All CSS Positions and Z-Index Example</h1>
+  <h2>Scroll down to see the sticky behavior!</h2>
+
+  <div class="container">
+    <!-- Sticky Element -->
+    <div class="box box-sticky">Sticky</div>
+
+    <!-- Static Positioned Box -->
+    <div class="box box-static">Static</div>
+
+    <!-- Relative Positioned Box -->
+    <div class="box box-relative">Relative</div>
+
+    <!-- Absolute Positioned Box -->
+    <div class="box box-absolute">Absolute</div>
+
+    <!-- Fixed Positioned Box -->
+    <div class="box box-fixed">Fixed</div>
+  </div>
+</body>
+</html>

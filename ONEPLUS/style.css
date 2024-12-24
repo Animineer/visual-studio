@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ribbon{
+    display:flex;
+    background-color:black;
+    color:white;
+    padding: left 10px;
+    margin:auto;
+    
+
+
+}
+#ribbon p{
+     align-self: center;
+
+
+}
+.navbar{
+    
+    display:flex;
+    flex:40px;
+
+    
+
+}
+
+.copyright{
+    display:flex;
+    background-color:black;
+    color:white;
+}
+.copyright h1{
+  justify-self: center;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto;
+    
+   
+}

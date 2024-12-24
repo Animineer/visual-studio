@@ -1,0 +1,21 @@
+echo "# visual-studio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Animineer/visual-studio.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Animineer/visual-studio.git
+git branch -M main
+git push -u origin main
+margin: 100px;
+
+CREATE TABLE users (
+   firstname VARCHAR(100) NOT NULL,
+  surname VARCHAR(100) NOT NULL,
+  mobileno VARCHAR(100) NOT NULL,
+  password VARCHAR(100) NOT NULL);

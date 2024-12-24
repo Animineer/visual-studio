@@ -1,0 +1,168 @@
+
+/*logo 2nd page */
+.logo2{
+   display: flex;
+   justify-content: center;
+    
+}
+
+
+
+
+/*body color */
+body{
+    background-color:aliceblue ;
+
+}
+
+
+/*form class login page */
+
+.both{
+    text-align: center;
+    display: flex;
+    
+    
+}
+.right{
+    justify-content: flex-end;
+    margin-top:60px;
+    margin-right:10px;
+    
+}
+/*form class sign up page */
+
+.formcontainer2{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*fieldset class login page */
+
+.fieldset1{
+background-color:white;
+border-radius: 5px;
+height: 320px;
+width:350px;
+justify-content: auto;
+align-items:auto;
+}
+
+/*fieldset class sign up page */
+
+.fieldset2{
+    background-color:white;
+    border-radius: 5px;
+    height: 665px;
+    width:400px;
+    }
+/* small input id for no and password  */
+
+#small1{
+    border-radius:5px;
+    border-color: lightslategrey;
+    width: 300px;
+    height: 30px;
+    margin: 2px;
+}
+
+#small{
+    border-radius:5px;
+    border-color: lightslategrey;
+    width: 200px;
+    height: 30px;
+    margin: 2px;
+}
+
+/* big input field id for signup page  */
+
+#big{
+    border-radius:5px;
+    border-color: lightslategrey;
+    width: 425px;
+    height: 30px;
+    margin: 5px;
+}
+
+#date{
+    width: 425px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+    
+
+}
+
+.r2{
+ font-size: small;
+ display: flex;
+    
+}
+
+/* common button properties  */
+
+
+button{
+    color:white;
+    border-radius: 5px;
+    border:0px;
+    
+}
+button{
+    width: 100%; height: 100%;
+    transition: scale 20ms;
+}
+button:hover {
+    scale: 102%;
+}
+input{
+    width: 100%; height: 100%;
+    transition: scale 20ms;
+}
+input:hover {
+    scale: 102%;
+}
+/* button properties for login  */
+
+.login{
+    background-color: #0866ff;
+    width: 300px;
+    height: 30px;
+}
+
+/* button properties for new user  */
+
+.new{
+    background-color:#42b72a ;
+    width: 150px;
+    height: 30px;
+
+}
+
+/* button properties for new user  */
+
+.signup{
+    margin-left:27%;    
+    background-color:#42b72a ;
+    width: 200px;
+    height: 40px;
+
+}
+#a1{
+    text-decoration: none;
+    color: white;
+
+}
+#a2{
+color: blue;
+
+}
+p{
+    font-size: smaller;
+}
+
+h2,h4{
+    text-align: center;
+}
